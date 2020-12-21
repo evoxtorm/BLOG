@@ -7,7 +7,7 @@
 
 ## Summary
 
-It contains series of Blogs related to programming.
+It contains series of Blogs.
 
 ## Topics
 
