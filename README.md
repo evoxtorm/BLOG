@@ -13,8 +13,8 @@ It contains a series of Blogs related to software development.
 
 Here is the list of topics:-
 
-* [Scraping Using Requests and BeautifulSoup](https://github.com/evoxtorm/Scraping-Blog-Private/blob/main/basic_scraping.md)
-* [Scraping Using Requests and BeautifulSoup (Advance Techniques)](https://github.com/evoxtorm/Scraping-Blog-Private/blob/main/basic_scraping_two.md)
+* [Scraping Using Requests and BeautifulSoup](https://github.com/evoxtorm/BLOG/blob/main/basic_scraping.md)
+* [Scraping Using Requests and BeautifulSoup (Advance Techniques)](https://github.com/evoxtorm/BLOG/blob/main/basic_scraping_two.md)
 
 
 ## Contributions
