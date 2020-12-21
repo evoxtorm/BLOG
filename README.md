@@ -7,7 +7,7 @@
 
 ## Summary
 
-It contains series of Blogs.
+It contains a series of Blogs related to software development.
 
 ## Topics
 
@@ -19,4 +19,4 @@ Here is the list of topics:-
 
 ## Contributions
 
-You can clone this repo and if you find any mistakes or wnat to add something or enchance anything or add any examples related to it make a pull request.
+You can clone this repo and if you find any mistakes or want to add something or enhance anything or add any examples related to it make a pull request.
