@@ -112,7 +112,7 @@ Now we will learn how we can get the values from the HTML text using `BeautifulS
 
 ## Get Values Using BeautifulSoup
 
-![alt text](https://github.com/fetchai/BLOG/blob/main/Images/example_one.jpg "Example One")
+![alt text](https://github.com/evoxtorm/BLOG/blob/main/Images/example_one.jpg "Example One")
 
 Here is the screenshot which is taken from [CSES](https://cses.fi/problemset/). I've highlighted the screenshot where we will try to get the question name which is in the left and, the stats about it in the right.
 
@@ -127,7 +127,7 @@ BeautifulSoup uses various parsers to parse the `HTML`. We have three popular pa
 
 I will try to explain these parsers in another blog. But for now, we will stick to `lxml`.
 
-![alt text](https://github.com/fetchai/BLOG/blob/main/Images/example2.jpg "Example Two")
+![alt text](https://github.com/evoxtorm/BLOG/blob/main/Images/example2.jpg "Example Two")
 
 First, we need to check where we can find the tag or location of the text we want to extract. Here, in the above screenshot. I've marked highlighted the HTML tag where we want to go and get the data. So, now we know the exact location where we get the data and, from there, we will extract the data.
 
@@ -224,4 +224,4 @@ In the above snippet, we are able to get the data in the desired form. Here in t
 
 ## End Notes
 
-In this blog, we have learned how to make a get request and get a response. Extract all the required data with the help of BeautifulSoup. In the next blog. I will try to explain more advanced methods using request and will know what other things we can achieve. The next part of this blog is [here](https://github.com/fetchai/BLOG/blob/main/basic_scraping_two.md).
+In this blog, we have learned how to make a get request and get a response. Extract all the required data with the help of BeautifulSoup. In the next blog. I will try to explain more advanced methods using request and will know what other things we can achieve. The next part of this blog is [here](https://github.com/evoxtorm/BLOG/blob/main/basic_scraping_two.md).
