@@ -25,13 +25,13 @@ The third parameter is `JSON` so if we have to send a `JSON` object as a body of
 
 The fourth parameter is `kwargs` so it contains lots of other values like `headers, timeout, cookies, etc`.
 
-Here, we will learn about how we can make a post request. Post requests are used when we submit a form or sending multiple values to the backend to get the specific response or it can also be used at the time of authentication where you send your `username` and `password` and sometimes other values like `csrf-token`. If you don't know about **CSRF-TOKEN** you can read it [here](https://stackoverflow.com/questions/5207160/what-is-a-csrf-token-what-is-its-importance-and-how-does-it-work). Here we will use a series of the request so we will use `session`. You can read the basics about the session [here](https://github.com/evoxtorm/BLOG/blob/main/small_articles.md#requests-session).
+Here, we will learn about how we can make a post request. Post requests are used when we submit a form or sending multiple values to the backend to get the specific response or it can also be used at the time of authentication where you send your `username` and `password` and sometimes other values like `csrf-token`. If you don't know about **CSRF-TOKEN** you can read it [here](https://stackoverflow.com/questions/5207160/what-is-a-csrf-token-what-is-its-importance-and-how-does-it-work). Here we will use a series of the request so we will use `session`. You can read the basics about the session [here](https://github.com/fetchai/BLOG/blob/main/small_articles.md#requests-session).
 
 In this blog we will make request to `CSES` website. It will be a post request. Here, we are not extractig data as a end result but we will extract some values which will be necessary to make a login post request and therefore we will be using `get request` first.
 
 We are using a series of requests because first, we will get the `csrfToken` then we will proceed further.
 
-![alt text](https://github.com/evoxtorm/BLOG/blob/main/Images/login_payload.jpg "Payload")
+![alt text](https://github.com/fetchai/BLOG/blob/main/Images/login_payload.jpg "Payload")
 
 So, for a login request, we need `username` and `password` to login. But if we check the request and its payload then we will get to know it also sending a `csrfToken`.
 
@@ -248,7 +248,7 @@ Let's talk about what we will be doing and our end goal or result.
 
 So, we will log in to [CSES](https://cses.fi/), and then we will extract the stats of the user. 
 
-![alt text](https://github.com/evoxtorm/BLOG/blob/main/Images/profile_details.png "Profile details")
+![alt text](https://github.com/fetchai/BLOG/blob/main/Images/profile_details.png "Profile details")
 
 We have a user profile that looks like this (above screenshot). Here we have various information about the user like name, country, submission count, etc.
 
@@ -414,13 +414,13 @@ So, we have `main` in which all major things are happening. Let's walk through t
 
 So, the answer for this is that if you log in a new user every time then the browser will create a new session for every user every time so we are trying to do this. Then we are requesting to get a response so that we can extract `csrf_token`.
 
-In `get_response` we have new parameter called `timeout`. You can read it [Here](https://github.com/evoxtorm/BLOG/blob/main/small_articles.md#requests-timeouts).
+In `get_response` we have new parameter called `timeout`. You can read it [Here](https://github.com/fetchai/BLOG/blob/main/small_articles.md#requests-timeouts).
 
 After extracting `csrf_token` we made a login request. After login to the website, we extracted the user detail URL from its response. Then we made a last request so that we can extract all the things which we want to extract from the website.
 
 At last, we have attached the details in result `dict` which key is username and value is `ans_dict`. After this `time.sleep` is used so that we don't have that frequent requests in real scenarios it will take some time to do all these things. You can use this after every request for real-world problems but for now, it's ok.
 
-You can run this file to test this code. [Here's](https://github.com/evoxtorm/BLOG/blob/main/scripts/post_request.py) the file.
+You can run this file to test this code. [Here's](https://github.com/fetchai/BLOG/blob/main/scripts/post_request.py) the file.
 
 
 
