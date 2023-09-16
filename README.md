@@ -15,6 +15,7 @@ Here is the list of topics:-
 
 * [Scraping Using Requests and BeautifulSoup](https://github.com/evoxtorm/BLOG/blob/main/basic_scraping.md)
 * [Scraping Using Requests and BeautifulSoup (Advance Techniques)](https://github.com/evoxtorm/BLOG/blob/main/basic_scraping_two.md)
+* [Mongo DB Optimizations](https://github.com/evoxtorm/BLOG/blob/main/MongoDB.MD)
 
 
 ## Contributions
